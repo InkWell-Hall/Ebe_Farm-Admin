@@ -46,7 +46,7 @@ const AdminNavbar = () => {
           </div>
 
           <div>
-            <ul className=" gap-5 hidden md:flex">
+            {/* <ul className=" gap-5 hidden md:flex">
               <li className="flex">
                 <NavLink to={"/"} className="flex gap-2">
                   <Home color="black" />
@@ -71,7 +71,7 @@ const AdminNavbar = () => {
                   Contact{" "}
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </div>
 
           <div className="flex gap-10 items-center">
@@ -82,8 +82,8 @@ const AdminNavbar = () => {
                   onClick={() => setShow(!show)}
                 />
                 {show ? (
-                  <div className="w-30 h-27 bg-gray-300 absolute -right-14 rounded mt-2 z-90">
-                    <ul className="flex flex-col justify-center  gap-3 p-1 text-sm">
+                  <div className="w-30 h-27 absolute -right-14 rounded mt-2 z-90">
+                    {/* <ul className="flex flex-col justify-center  gap-3 p-1 text-sm">
                       <li className="hover:bg-black cursor-pointer px-2 whitespace-nowrap w-full">
                         Verify Account
                       </li>
@@ -96,7 +96,7 @@ const AdminNavbar = () => {
                       >
                         SignOut
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
                 ) : null}
               </div>
@@ -118,7 +118,7 @@ const AdminNavbar = () => {
         </div>
         {/* navlinks for mobile screens */}
         <div className="bg-black/40 bg-opacity-10 backdrop-blur-md border border-white/20 p-6 md:hidden">
-          <ul className="gap-3 text-white text-sm flex justify-center items-center">
+          {/* <ul className="gap-3 text-white text-sm flex justify-center items-center">
             <li className="flex">
               <NavLink to={"/"} className="flex gap-2">
                 <Home color="black" />
@@ -143,7 +143,7 @@ const AdminNavbar = () => {
                 Contact{" "}
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </nav>
     </>
